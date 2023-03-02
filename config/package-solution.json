@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "get-user-profile-properties-client-side-solution",
+    "id": "c14ddf06-036f-496e-bdc9-f6ea3ce5f4d2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [  
+  {  
+    "resource": "Microsoft Graph",  
+    "scope": "User.Read.All"  
+  }  
+],  
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": " GetUserProfileProperties description"
+      },
+      "longDescription": {
+        "default": " GetUserProfileProperties description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "get-user-profile-properties Feature",
+        "description": "The feature that activates elements of the get-user-profile-properties solution.",
+        "id": "829233ef-33a9-476a-9ea7-6d0a1ce7c4f0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/get-user-profile-properties.sppkg"
+  }
+}
